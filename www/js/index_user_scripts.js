@@ -177,10 +177,20 @@
     });
     
         /* button  .uib_w_27 */
+    
+    
+        /* button  .uib_w_27 */
     $(document).on("click", ".uib_w_27", function(evt)
     {
-         /*global activate_page */
-         activate_page("#dashboard"); 
+         /*global uib_sb */
+         /* Other possible functions are: 
+           uib_sb.open_sidebar($sb)
+           uib_sb.close_sidebar($sb)
+           uib_sb.toggle_sidebar($sb)
+            uib_sb.close_all_sidebars()
+          See js/sidebar.js for the full sidebar API */
+        
+         uib_sb.toggle_sidebar($(".uib_w_36"));  
          return false;
     });
     

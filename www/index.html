@@ -77,6 +77,12 @@
         <script type="application/javascript" src="sidebar/js/jquery.hammer.js"></script>
         <script type="application/javascript" src="sidebar/js/swipe-hammer.js"></script>
         <script type="application/javascript" src="sidebar/js/sidebar.js"></script>
+        <script type="application/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=true"></script>
+        <script type="application/javascript" src="google_maps/google_maps.js"></script>
+        <script type="application/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/1.0.2/Chart.min.js"></script>
+        <script type="application/javascript" src="chartJS/chartJS.js"></script>
+        <script type="application/javascript" src="https://www.google.com/jsapi"></script>
+        <script type="application/javascript" src="chart/chart.js"></script>
     </head>
 
     <body>
@@ -194,7 +200,7 @@
                         <button class="btn widget uib_w_26 d-margins white whitetext btn-link" data-uib="twitter%20bootstrap/button" data-ver="1">Logout</button>
                     </div>
                     <div class="widget-container content-area horiz-area wrapping-col right">
-                        <button class="btn widget uib_w_27 d-margins whitetext white btn-lg btn-link" data-uib="twitter%20bootstrap/button" data-ver="1"><i class="glyphicon glyphicon-th button-icon-left" data-position="left"></i>
+                        <button class="btn widget uib_w_27 d-margins whitetext white btn-lg btn-link" data-uib="twitter%20bootstrap/button" data-ver="1"><i class="glyphicon glyphicon-th button-icon-left" data-position="left"></i> 
                         </button>
                     </div>
                 </div>
@@ -313,7 +319,18 @@
                     </div>
                     <div class="widget-container content-area horiz-area wrapping-col right"></div>
                 </div>
-                <div class="upage-content ac0 content-area vertical-col left" id="page_25_77"></div>
+                <div class="upage-content ac0 content-area vertical-col left" id="page_25_77">
+                    <div class="grid grid-pad urow uib_row_18 row-height-18" data-uib="layout/row" data-ver="0">
+                        <div class="col uib_col_10 col-0_12-12" data-uib="layout/col" data-ver="0">
+                            <div class="widget-container content-area vertical-col">
+                                <div class="widget uib_w_56 charts-size d-margins" data-uib="media/chart" data-ver="0" data-chart-width="400" data-chart-height="400" data-query-string="select A,B" id="my_chart" data-chart-type="Bar" data-url="https://docs.google.com/spreadsheets/d/1izmXPZOAAV29c0AgJzo1JRDLW6R99WQHxdX0CFG_pp0/edit?usp=sharinghttps://docs.google.com/spreadsheets/d/1izmXPZOAAV29c0AgJzo1JRDLW6R99WQHxdX0CFG_pp0/edit?usp=sharing"></div>
+
+                                <span class="uib_shim"></span>
+                            </div>
+                        </div>
+                        <span class="uib_shim"></span>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="upage hidden" id="TutorialVideos">
@@ -326,7 +343,35 @@
                     </div>
                     <div class="widget-container content-area horiz-area wrapping-col right"></div>
                 </div>
-                <div class="upage-content ac0 content-area vertical-col left" id="page_26_63"></div>
+                <div class="upage-content ac0 content-area vertical-col left" id="page_26_63">
+                    <div class="grid grid-pad urow uib_row_19 row-height-19" data-uib="layout/row" data-ver="0">
+                        <div class="col uib_col_11 col-0_12-12" data-uib="layout/col" data-ver="0">
+                            <div class="widget-container content-area vertical-col">
+                                <div class="embed-video widget uib_w_57 d-margins" data-uib="media/youtube" data-ver="0">
+                                    <iframe src="http://www.youtube.com/embed/rryxZjqLtNs?wmode=transparent">
+                                    </iframe>
+                                </div>
+                                <span class="uib_shim"></span>
+                            </div>
+                        </div>
+                        <span class="uib_shim"></span>
+                    </div>
+
+                    <div class="grid grid-pad urow uib_row_20 row-height-20" data-uib="layout/row" data-ver="0">
+                        <div class="col uib_col_12 col-0_12-12" data-uib="layout/col" data-ver="0">
+                            <div class="widget-container content-area vertical-col">
+                                <figure class="margin-auto widget uib_w_58 d-margins" data-uib="media/video" data-ver="0">
+                                    <video controls="controls">
+                                        <source src="images/sam.webm" type="video/webm">
+                                            <source src="images/sam.mp4" type="video/mp4">
+                                    </video>
+                                </figure>
+                                <span class="uib_shim"></span>
+                            </div>
+                        </div>
+                        <span class="uib_shim"></span>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="upage hidden" id="LocationMap">
@@ -339,7 +384,17 @@
                     </div>
                     <div class="widget-container content-area horiz-area wrapping-col right"></div>
                 </div>
-                <div class="upage-content ac0 content-area vertical-col left" id="page_27_79"></div>
+                <div class="upage-content ac0 content-area vertical-col left" id="page_27_79">
+                    <div class="grid grid-pad urow uib_row_17 row-height-17" data-uib="layout/row" data-ver="0">
+                        <div class="col uib_col_9 col-0_12-12" data-uib="layout/col" data-ver="0">
+                            <div class="widget-container content-area vertical-col">
+                                <div class="widget uib_w_55 maps-size d-margins" data-uib="media/google_maps" data-ver="0" data-rpath="null" data-lat="3.055456" data-long="101.605500"></div>
+                                <span class="uib_shim"></span>
+                            </div>
+                        </div>
+                        <span class="uib_shim"></span>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="upage hidden" id="FeedbackForm">

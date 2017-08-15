@@ -848,3 +848,117 @@ label:empty {
   text-transform: uppercase;
   font-size: 105%;
 }
+.uib_row_17:not(.cright) > .col {
+  padding-right: 20px;
+}
+.uib_row_17.cright > .col {
+  padding-left: 20px;
+}
+@media all {
+  .col-0_12-12 {
+    width: auto;
+    float: none !important;
+  }
+  .urow:not(.cright) > .col-0_12-12 {
+    padding-right: 0px !important;
+  }
+  .urow.cright > .col-0_12-12 {
+    padding-left: 0px !important;
+  }
+}
+@media all {
+  .maps-size {
+    height: 250px;
+  }
+}
+.uib_row_18:not(.cright) > .col {
+  padding-right: 20px;
+}
+.uib_row_18.cright > .col {
+  padding-left: 20px;
+}
+@media all {
+  .col-0_12-12 {
+    width: auto;
+    float: none !important;
+  }
+  .urow:not(.cright) > .col-0_12-12 {
+    padding-right: 0px !important;
+  }
+  .urow.cright > .col-0_12-12 {
+    padding-left: 0px !important;
+  }
+}
+@media all and (min-width: 77px) {
+  .row-height-18 > .col > .content-area {
+    min-height: 406px;
+  }
+}
+@media all {
+  .charts-size {
+    width: 400px;
+    height: 400px;
+  }
+}
+.uib_row_19:not(.cright) > .col {
+  padding-right: 20px;
+}
+.uib_row_19.cright > .col {
+  padding-left: 20px;
+}
+@media all {
+  .col-0_12-12 {
+    width: auto;
+    float: none !important;
+  }
+  .urow:not(.cright) > .col-0_12-12 {
+    padding-right: 0px !important;
+  }
+  .urow.cright > .col-0_12-12 {
+    padding-left: 0px !important;
+  }
+}
+@media all and (min-width: 77px) {
+  .row-height-19 > .col > .content-area {
+    min-height: 100px;
+  }
+}
+.embed-video {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+}
+.embed-video iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.uib_row_20:not(.cright) > .col {
+  padding-right: 20px;
+}
+.uib_row_20.cright > .col {
+  padding-left: 20px;
+}
+@media all {
+  .col-0_12-12 {
+    width: auto;
+    float: none !important;
+  }
+  .urow:not(.cright) > .col-0_12-12 {
+    padding-right: 0px !important;
+  }
+  .urow.cright > .col-0_12-12 {
+    padding-left: 0px !important;
+  }
+}
+@media all and (min-width: 77px) {
+  .row-height-20 > .col > .content-area {
+    min-height: 100px;
+  }
+}
+.margin-auto {
+  margin: auto;
+}
